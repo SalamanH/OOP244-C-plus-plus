@@ -1,0 +1,10 @@
+Salaman hamidkohzad
+073-808-149
+
+1. a copy of the object is not made thus making the program less expensive and more efficient
+by using less resources.
+2. because an operator function already exists but when we define it for fraction and integer
+we are overloading the pre-existing function for that specific instance. 
+3. i have learned how to properly cast integers to yield propper results. i have learned
+how to properly implement operators and int operators. a deeper understanding of operators and how to
+manipulate them to my advantage. 

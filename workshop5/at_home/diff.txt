@@ -1,0 +1,10 @@
+
+In line number 14 of your output:
+The output should be:
+S := 1/2, 3/4, 1, 5/4, 3/2, 7/4, 2, 9/4, 5/2, 11/4, 
+But your output is: 
+S := 1/2, 6/8, 32/32, 160/128, 768/512, 3584/2048, 16384/8192, 73728/32768, 327680/131072, 1441792/524288, 
+          ^
+----------|
+Professor's character ASCII code: hex(33), dec(51)
+un-matched character ASCII code: hex(36), dec(54)

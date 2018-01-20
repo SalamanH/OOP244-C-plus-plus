@@ -1,0 +1,10 @@
+1. abstract base class is a class that is designed to be specifically used as a base class. contains atleast on pure virtual function. the concrete class
+is the derived class that implements memeber functions that are not implemented in the base class. implementing all missing functionality.
+
+2. so the compiler is aware we have intentions to overwrite the function
+
+3.coding an abstract base class
+defining pure virtual functions
+
+salaman hamidkohzad
+073-808-149

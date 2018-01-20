@@ -1,0 +1,18 @@
+salaman hamidkohzad
+073-808-149
+
+1. 
+ an empty state it meant for validation, prior to accepting the data, we can check
+if its valid or not. and if the data is not valid we set it to a safe empty state. strings
+are set to equal NULL and integers are set to equal 0, a value but an empty value. 
+
+2. 
+in the case of having clients with different values, and different number of parameters,
+you could use different constructors to initialize these different clients and simplify the
+code instead of having it all in the cpp file. 
+
+3. this workshop was straight forward other than the travelWith member function that had 
+the array being passed to it. finding out how to use the array was the most difficult part.
+Next to that was using the display function to display different text when it was called 
+at different times. this made me take advantage of the boolean and thus add more default 
+parameters to properly code the function.

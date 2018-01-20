@@ -1,0 +1,30 @@
+Salaman Hamidkohzad 
+073 808 149
+
+1) If memory is not deallocated, the possibility of a memory leak occuring becomes 
+possible. memory leaks thus hold up system resources and can cause software aging. 
+
+2) 
+	static memory is the memory the system reserved for the program at load time. Examples
+of static memory would include "int m = 0;" that i created in the 3rd overload function.
+once that function was exited, the lifetime of 'm' ended there.if i were to create another
+variable after i exited the scope 'm' belonged to, there is a chance that both varibles
+could have had the same address but since 'x' was terminated after the scope was exited,
+the memory was released. 
+
+	Dynamic memory is not reserved at program load time. the system reserves memory
+when the program itself allocates and deallocates memory. examples of this are 
+
+pKingdoms = new kingdom[count];
+delete[] pKingdoms;
+pKingdoms = nullptr; 
+
+dynamic memory is allocated in the first line, and deallocated afterwards. if the memory
+is not deallocated then errors like memory leaks could occur. 
+
+
+3) in this workshop i have learned how important allocating and deallocating memory can 
+be. i have refined my skills on passing paramters between function and making my code 
+more efficient. and example of being efficient is using the first display function to 
+print out data instead of printing out the same line in every overload. really opened 
+my eyes. 

@@ -1,0 +1,23 @@
+salaman hamidkohzad
+073-808-149
+
+1. exmaples of object orientation uses: 
+
+object: 	the myCC object was created to store the credit card information of the user 
+class: 		the myCC object was of type CreditCard which is a class
+encapsulation:  the creditcard class proved that encapsulation was used along with 
+		private and public members
+polymorphism:   was used in this workshop since i called " void writeName() const; " And
+		" void writeCardInfo() const; " multiple times instead of coding the same thing over
+		and over again. i used these functions to make my code more efficient
+
+
+2. do while loop
+
+a do-while loop compared to a while loop guarentees atleast 1 iteration of the loop. i
+found the condition to be very interesting, i never thought of calling a function in a 
+condition statement. making sure that the function called returns a boolean value is a
+clever way to condition a do-while. seeing that really intrigued me and i will definetly use that in 
+the future. unsigned long long ensures that the variable wont have a negative value and 
+will have an increased positive range of values. since it is a credit card number i 
+believe using a unsigned long long was an efficient programming choice. 
